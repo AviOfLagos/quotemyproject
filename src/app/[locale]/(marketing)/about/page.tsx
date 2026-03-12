@@ -1,10 +1,19 @@
 import type { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import Image from 'next/image';
+import { routing } from '@/libs/I18nRouting';
 
 type AboutPageProps = {
   params: Promise<{ locale: string }>;
 };
+
+// Pre-render all locale variants at build time (SSG)
+export function generateStaticParams() {
+  return routing.locales.map(locale => ({ locale }));
+}
+
+// No on-demand rendering for unknown params
+export const dynamicParams = false;
 
 export async function generateMetadata(props: AboutPageProps): Promise<Metadata> {
   const { locale } = await props.params;
