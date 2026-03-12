@@ -1,0 +1,93 @@
+file:
+
+Let’s calculate each role step by step.
+
+### 1. Design
+
+* 4 hours per day
+* 5 days per week (Mon–Fri)
+* 2 weeks
+
+Calculation:
+
+* 4 × 5 = **20 hours per week**
+* 20 × 2 = **40 hours**
+
+**Design total: 40 hours**
+
+---
+
+### 2. Frontend
+
+* 4 hours per day
+* 5 days per week
+* 6 weeks
+
+Calculation:
+
+* 4 × 5 = **20 hours per week**
+* 20 × 6 = **120 hours**
+
+**Frontend total: 120 hours**
+
+---
+
+### 3. Backend
+
+Same schedule as frontend.
+
+Calculation:
+
+* 4 × 5 × 6 = **120 hours**
+
+**Backend total: 120 hours**
+
+---
+
+### 4. Project Manager (PM)
+
+Same schedule as frontend and backend.
+
+Calculation:
+
+* 4 × 5 × 6 = **120 hours**
+
+**PM total: 120 hours**
+
+---
+
+# Final Totals
+
+| Role     | Hours |
+| -------- | ----- |
+| Design   | 40    |
+| Frontend | 120   |
+| Backend  | 120   |
+| PM       | 120   |
+
+**Total project hours:**
+
+40 + 120 + 120 + 120 = **400 hours**
+
+---
+
+### Why this number is interesting for your agency
+
+That **400 hours** number is actually a very realistic **MVP-sized product build** for a small agency team working part-time per role.
+
+For example, if your internal blended rate were:
+
+* $35/hour
+
+Then the **baseline project cost** would be:
+
+400 × 35 = **$14,000**
+
+Then agencies usually add:
+
+* **30% buffer**
+* **20–30% margin**
+
+Which would put the **client quote roughly around $20k–$24k**.
+
+If you want, I can also show you a **very simple formula you can turn into a pricing calculator for your agency**, where your team just inputs weeks + hours/day and it automatically outputs the **minimum safe price to charge**. That removes almost all the guessing.

@@ -1,0 +1,239 @@
+{
+  "project": {
+    "name": "Project Pricing Calculator",
+    "type": "SEO Tool + Educational Platform",
+    "goal": "Help freelancers and agencies quickly estimate and quote software projects using multiple pricing models"
+  },
+
+  "initial_instruction": {
+    "priority": "VERY HIGH",
+    "task": "Before writing any code, recursively scan and analyze the entire /docs folder.",
+    "details": [
+      "Extract all pricing logic",
+      "Extract formulas and examples",
+      "Extract pricing methods",
+      "Extract UX ideas",
+      "Extract feature libraries",
+      "Extract project templates",
+      "Identify inconsistencies",
+      "Build a unified data model"
+    ],
+    "output_required": [
+      "project_architecture_plan",
+      "ui_design_strategy",
+      "pricing_engine_logic",
+      "seo_content_plan"
+    ]
+  },
+
+  "tech_stack": {
+    "framework": "Next.js",
+    "rendering": "SSG + SSR hybrid",
+    "language": "TypeScript",
+    "styling": "TailwindCSS",
+    "ui_system": "Component-based design system",
+    "icons": "Lucide",
+    "charts": "Recharts",
+    "content": "Markdown or MDX",
+    "seo": "Next.js metadata API",
+    "forms": "React Hook Form",
+    "validation": "Zod"
+  },
+
+  "design_system": {
+    "style": "Modern SaaS UI",
+    "inspiration": [
+      "Linear",
+      "Stripe",
+      "Vercel"
+    ],
+    "principles": [
+      "clean",
+      "minimal",
+      "high readability",
+      "fast navigation"
+    ],
+    "color_palette": {
+      "primary": "#2563EB",
+      "secondary": "#0F172A",
+      "accent": "#14B8A6"
+    }
+  },
+
+  "ui_requirements": [
+    "Fully responsive",
+    "Accessible (WCAG considerations)",
+    "Clear pricing calculator UI",
+    "Interactive feature selection",
+    "Live calculation updates",
+    "Exportable estimate summary"
+  ],
+
+  "site_structure": {
+    "pages": [
+      "/",
+      "/calculator",
+      "/pricing/hourly-pricing",
+      "/pricing/fixed-project-pricing",
+      "/pricing/value-based-pricing",
+      "/pricing/feature-based-pricing",
+      "/pricing/retainer-pricing",
+      "/pricing/performance-pricing",
+      "/pricing/equity-pricing",
+      "/blog",
+      "/blog/how-to-price-software-projects",
+      "/blog/software-development-cost-breakdown",
+      "/blog/freelancer-pricing-strategies",
+      "/blog/how-agencies-estimate-projects"
+    ]
+  },
+
+  "calculator_modes": [
+    {
+      "mode": "Quick Estimate",
+      "inputs": [
+        "project_type",
+        "hourly_rate",
+        "risk_buffer",
+        "profit_margin"
+      ]
+    },
+    {
+      "mode": "Feature-Based Estimate",
+      "inputs": [
+        "selected_features",
+        "hourly_rate",
+        "risk_buffer",
+        "profit_margin"
+      ]
+    },
+    {
+      "mode": "Manual Hours",
+      "inputs": [
+        "total_hours",
+        "hourly_rate",
+        "risk_buffer",
+        "profit_margin"
+      ]
+    }
+  ],
+
+  "calculation_engine": {
+    "formula": [
+      "base_cost = hours * hourly_rate",
+      "buffered_cost = base_cost * (1 + risk_buffer)",
+      "final_price = buffered_cost * (1 + profit_margin)"
+    ]
+  },
+
+  "export_features": [
+    "Download estimate as PDF",
+    "Email estimate to user",
+    "Copy quote summary"
+  ],
+
+  "seo_strategy": {
+    "keywords": [
+      "software project pricing",
+      "freelance developer rates",
+      "how much does software development cost",
+      "MVP development cost",
+      "software project estimation"
+    ],
+    "requirements": [
+      "Each pricing page must include a detailed explanation",
+      "Include structured headings",
+      "Include examples",
+      "Include calculator integration",
+      "Include internal links"
+    ]
+  },
+
+  "blog_strategy": {
+    "goal": "Generate SEO traffic",
+    "post_length": "1500–2500 words",
+    "tone": "Educational",
+    "structure": [
+      "Introduction",
+      "Problem explanation",
+      "Pricing frameworks",
+      "Real examples",
+      "Calculator usage",
+      "Conclusion"
+    ]
+  },
+
+  "localization": {
+    "library": "next-intl",
+    "strategy": "Locale-aware routing",
+    "languages": [
+      "en",
+      "fr",
+    ],
+    "requirements": [
+      "All content must be translatable",
+      "Calculator UI must support localization",
+      "Agents must generate translation-ready strings"
+    ]
+  },
+
+  "agents": [
+    {
+      "name": "System Architect Agent",
+      "role": "Analyze /docs and design architecture"
+    },
+    {
+      "name": "UI/UX Designer Agent",
+      "role": "Create modern SaaS UI components"
+    },
+    {
+      "name": "Pricing Logic Agent",
+      "role": "Implement calculator and estimation models"
+    },
+    {
+      "name": "SEO Content Agent",
+      "role": "Write optimized landing pages and blog posts"
+    },
+    {
+      "name": "Localization Agent",
+      "role": "Prepare translation-ready content"
+    },
+    {
+      "name": "QA Agent",
+      "role": "Validate calculations and UX"
+    }, 
+    {
+      **others as needed
+    }
+  ],
+
+  "ui_components": [
+    "Navbar",
+    "Hero section",
+    "Pricing method cards",
+    "Calculator panel",
+    "Feature selector",
+    "Pricing summary",
+    "Export panel",
+    "Blog layout",
+    "Footer"
+  ],
+
+  "performance_requirements": [
+    "Lighthouse score above 90",
+    "Optimized images",
+    "Minimal bundle size",
+    "Server-side rendering for SEO pages"
+  ],
+
+  "final_output": [
+    "Full Next.js project",
+    "Component architecture",
+    "Calculator engine",
+    "Shareable estimate link",
+    "SEO pages",
+    "Blog system",
+    "Localization support",
+    "Modern UI design"
+  ]
+}
